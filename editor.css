@@ -1,0 +1,95 @@
+
+
+.navbar {
+    grid-area: header;
+    background-color: #1C2335;
+    border-bottom: 2px solid black;
+    font-size: 30px;
+    color: white;
+}
+.left {
+    grid-area: left;
+    background-color: #1C2335;
+    border-right: 2px solid black;
+}
+.content{
+    height: 98%;
+    width: 95%;
+    margin: 2.5%;
+    background-color: #313D5E;
+    border-radius: 5px;
+    border: 2px solid #555;
+    box-shadow: 0px 0px 3px black;
+    overflow: scroll;
+}
+.test {
+    grid-area: main;
+    background-color: #1C2335;
+    position: relative;
+    justify-content: center;
+  align-items: center;
+}
+.right{
+    grid-area: right;
+    background-color: #1C2335;
+    border-left: 2px solid black;
+}
+
+ul li{
+    list-style: none;
+    font-size: 20px;
+    color: white;
+    font-weight:600;
+    padding: 10px;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+
+ul li li{
+    border-bottom: none;
+}
+
+.entityTitle{
+    font-size: 20px;
+    color: white;
+    font-weight:600;
+    margin: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+.component{
+    font-size: 15px;
+    color: white;
+    font-weight:400;
+    margin: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+
+.healthbar{
+    height: 30px;
+    background-color: red;
+    position:absolute;
+    top: 10px;
+    left: 200px;
+}
+
+.textbox{
+    width: 50%;
+    height: 200px;
+    position: absolute;
+    z-index: 10;
+    bottom: 20px;
+    left: 20px;
+    font-size: 30px;
+}
+
+.objectInfo{
+    width: 400px;
+    background-color: #1C2335;
+    position: absolute;
+    z-index: 100;
+    right: 10px;
+    top: 100px;
+    padding: 20px;
+}

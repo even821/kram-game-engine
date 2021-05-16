@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.debugWindow{
+    background-color: rgba(200,200,200,0.4);
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 350px;
+    height: 100px;
+    border: 1px gray solid;
+    border-radius: 3px;
+    padding: 10px;
+    overflow: scroll;
+}
+canvas:first-of-type{
+    background-color: #313D5E;
+    border-radius: 5px;
+    border: 2px solid #555;
+    box-shadow: 0px 0px 3px black;
+}
+canvas{
+    border-radius: 10px;
+}
+
+.menuBox{
+  font-size: 25px;
+  position: absolute;
+  z-index: 10;
+  
+}
+
+.glass{
+    background: rgb(0,27,36);
+    background: linear-gradient(135deg, rgba(0,27,36,0.2) 0%, rgba(0,212,255,0.5) 100%);
+    backdrop-filter: blur(10px) saturate(100%) contrast(45%) brightness(130%);
+    border: 1px solid #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    z-index: 100;
+    position: relative;
+}
+
+.button{
+    background-color: #33559942;
+    height: 30px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
